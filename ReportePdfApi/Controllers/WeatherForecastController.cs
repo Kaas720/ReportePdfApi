@@ -96,7 +96,7 @@ namespace ReportePdfApi.Controllers
                     iTextSharp.text.Image image1 = iTextSharp.text.Image.GetInstance("C:\\Users\\VIAMATICA\\Desktop\\QrImagen.png");
                     image1.ScaleAbsoluteWidth(100);
                     image1.ScaleAbsoluteHeight(100);
-                    image1.Alignment = Element.ALIGN_RIGHT;
+                    image1.Alignment = Element.ALIGN_RIGHT;//
                     //image1.SetAbsolutePosition(50, 50);
                // float positionx = image1.AbsoluteX;
               //  float positiony = image1.AbsoluteY;
